@@ -10,7 +10,7 @@ Add between the <head></head> of the webpage source code:
 <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)){var lang = navigator.language||navigator.userLanguage;lang = lang.substr(0, 2);if(lang == 'zh'){window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/zh-cn.html";}
  else{window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/en.html";}}</script>
 ```
-
+Welcome to submit versions in other languages by PR.
 ## 中文
 当IE浏览器（包括使用IE内核的浏览器）访问网站的时候将自动跳转到浏览器升级提示页面。
 
