@@ -9,7 +9,8 @@
 在网页源代码`<head></head>`间添加：
 ```html
 
-<script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)){var lang = navigator.language||navigator.userLanguage;lang = lang.substr(0, 2);if(lang == 'zh'){window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/zh-cn.html";};else{window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/en.html"}}</script>
+<script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)){var lang = navigator.language||navigator.userLanguage;lang = lang.substr(0, 2);if(lang == 'zh'){window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/zh-cn.html";}
+ else{window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/en.html"}}</script>
 ```
 
  看到这个https://support.dmeng.net/upgrade-your-browser.html
