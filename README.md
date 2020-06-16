@@ -8,7 +8,7 @@ It is detected to use IE browser, and it will automatically jump to the prompt p
 Add between the <head></head> of the webpage source code:
 ```html
 <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)){var lang = navigator.language||navigator.userLanguage;lang = lang.substr(0, 2);if(lang == 'zh'){window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/zh-cn.html";}
- else{window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/en.html"}}</script>
+ else{window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/en.html";}}</script>
 ```
 
 ## 中文
@@ -22,7 +22,7 @@ Add between the <head></head> of the webpage source code:
 在网页源代码`<head></head>`间添加：
 ```html
 <script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)){var lang = navigator.language||navigator.userLanguage;lang = lang.substr(0, 2);if(lang == 'zh'){window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/zh-cn.html";}
- else{window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/en.html"}}</script>
+ else{window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/en.html";}}</script>
 ```
 
  看到这个https://support.dmeng.net/upgrade-your-browser.html
