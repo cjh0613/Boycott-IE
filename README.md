@@ -29,4 +29,4 @@ The latest code is stored in the "/2" directory, web pages are stored in differe
 
  看到这个https://support.dmeng.net/upgrade-your-browser.html
  
- 但是没有英文界面，也在此基础上添加了其他功能
+ 但是没有英文界面，于是开发此多语言版本，欢迎各位PR
