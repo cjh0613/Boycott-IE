@@ -1,10 +1,12 @@
 # Boycott-IE
 ## English
-When an IE browser (including a browser using the IE kernel) accesses a website, it will automatically jump to the browser upgrade prompt page.
+When an IE browser (including a browser using the IE kernel) accesses a website, it will redirect to a page suggesting that you update your browser.
 
 It is detected to use IE browser, and it will redirect to the tip page after judging the language.
 
 I plan to support as many languages as possible, so that developers around the world are happy to use it, so that people around the world can switch to more advanced browsers.
+
+You are welcome to submit（pull request）the version of your native language. 
 
 ### Instructions:
 Add between the `<head></head>` of the webpage source code:
