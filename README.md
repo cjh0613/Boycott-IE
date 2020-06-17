@@ -5,12 +5,14 @@ When an IE browser (including a browser using the IE kernel) accesses a website,
 It is detected to use IE browser, and it will automatically jump to the prompt page after judging the language
 
 ### Instructions:
-Add between the <head></head> of the webpage source code:
+Add between the `<head></head>` of the webpage source code:
 ```html
-<script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)){var lang = navigator.language||navigator.userLanguage;lang = lang.substr(0, 2);if(lang == 'zh'){window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/zh-cn.html";}
- else{window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/en.html";}}</script>
+<script src="https://cjh0613.github.io/Boycott-IE/2/boycott-ie.js"></script>
 ```
 Welcome to submit versions in other languages by PR.
+
+The latest code is stored in the "/2" directory, web pages are stored in different folders according to language， and the code in the root directory is for backward compatibility. Please note when you pull request
+
 ## 中文
 当IE浏览器（包括使用IE内核的浏览器）访问网站的时候将自动跳转到浏览器升级提示页面。
 
@@ -19,11 +21,11 @@ Welcome to submit versions in other languages by PR.
 
 ### 使用方法：
 
-在网页源代码`<head></head>`间添加：
+在网页源代码`<head></head>`间添加（尽量靠前）：
 ```html
-<script>if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMode)){var lang = navigator.language||navigator.userLanguage;lang = lang.substr(0, 2);if(lang == 'zh'){window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/zh-cn.html";}
- else{window.location.href="https://cjh0613.github.io/Boycott-IE/upgrade-your-browser/en.html";}}</script>
+<script src="https://cjh0613.github.io/Boycott-IE/2/boycott-ie.js"></script>
 ```
+最新的代码存放在“/2”目录，网页按照语言存储在不同文件夹，根目录下的代码是为了向下兼容。您pull request 时请注意
 
  看到这个https://support.dmeng.net/upgrade-your-browser.html
  
