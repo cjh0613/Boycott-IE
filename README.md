@@ -1,6 +1,8 @@
 # Boycott-IE
 ## English
-When an IE browser (including a browser using the IE kernel) accesses a website, it will redirect to a page suggesting that you update your browser.
+When an IE browser (including a browser using the IE kernel) accesses a website, it will redirect to a page suggesting that you update your browser. 
+
+You can use IE to visit: https://cjh0613.github.io/en
 
 It is detected to use IE browser, and it will redirect to the tip page after judging the language.
 
