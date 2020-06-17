@@ -2,7 +2,9 @@
 ## English
 When an IE browser (including a browser using the IE kernel) accesses a website, it will automatically jump to the browser upgrade prompt page.
 
-It is detected to use IE browser, and it will automatically jump to the prompt page after judging the language
+It is detected to use IE browser, and it will redirect to the tip page after judging the language.
+
+I plan to support as many languages as possible, so that developers around the world are happy to use it, so that people around the world can switch to more advanced browsers.
 
 ### Instructions:
 Add between the `<head></head>` of the webpage source code:
@@ -18,6 +20,8 @@ The latest code is stored in the "/2" directory, web pages are stored in differe
 
 检测到使用IE浏览器，
 判断语言后自动跳转到提示页面
+
+我计划尽可能支持更多语言，使全世界开发者乐意去使用，以便世界各地的人们换用更先进的浏览器
 
 ### 使用方法：
 
